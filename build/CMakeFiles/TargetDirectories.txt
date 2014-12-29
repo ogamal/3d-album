@@ -1,0 +1,3 @@
+/Users/iOsama/Code/cpp/album/build/CMakeFiles/3dAlbum.dir
+/Users/iOsama/Code/cpp/album/build/CMakeFiles/ALL_BUILD.dir
+/Users/iOsama/Code/cpp/album/build/CMakeFiles/ZERO_CHECK.dir

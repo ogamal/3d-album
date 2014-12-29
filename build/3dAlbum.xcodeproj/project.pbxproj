@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		74BE068C30DE46B0877328BA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9EBD2512624D4E05BF874066 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D2A9FD457DAA4350933E6F22 /* CMake Rules */,
+			);
+			dependencies = (
+				DBE6556B01144204B722DA83 /* PBXTargetDependency */,
+				6E01932C6AAD47DD9FA5B7C6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EB370EF5695640DCB86C7B54 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3C5275BD6EA64B41A05CA6B5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				231CF7AA1AAC4DCE96260BDA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		413408AA1A512A8700AB74A5 /* road.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 413408A71A512A8000AB74A5 /* road.png */; };
+		413408AB1A512A8700AB74A5 /* stars_78c8dff1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 413408A81A512A8000AB74A5 /* stars_78c8dff1.png */; };
+		413408AC1A512A8700AB74A5 /* unsplash_52d9133506548_1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 413408A91A512A8000AB74A5 /* unsplash_52d9133506548_1.png */; };
+		417C316C1A419C26005B3C3A /* DSC_0997.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31641A419C16005B3C3A /* DSC_0997.png */; };
+		417C316D1A419C26005B3C3A /* DSC_1033.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31651A419C16005B3C3A /* DSC_1033.png */; };
+		417C316E1A419C26005B3C3A /* IMG_3275.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31661A419C16005B3C3A /* IMG_3275.png */; };
+		417C316F1A419C26005B3C3A /* fear_1920x1200.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31671A419C16005B3C3A /* fear_1920x1200.png */; };
+		417C31701A419C26005B3C3A /* little_big_planet_02.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31681A419C16005B3C3A /* little_big_planet_02.png */; };
+		417C31711A419C26005B3C3A /* owl.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31691A419C16005B3C3A /* owl.png */; };
+		417C31721A419C26005B3C3A /* winter.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C316A1A419C16005B3C3A /* winter.png */; };
+		417C31731A419C26005B3C3A /* zvx2009231.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C316B1A419C16005B3C3A /* zvx2009231.png */; };
+		417C31761A419E73005B3C3A /* dubia.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31741A419E6D005B3C3A /* dubia.png */; };
+		417C31771A419E73005B3C3A /* nfs-shift-wallpaper.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 417C31751A419E6D005B3C3A /* nfs-shift-wallpaper.png */; };
+		4D78CA36F5A54167B1755CF9 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED3C7F95F4504842939F01DA /* app.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		62AC38F7E6ED4136A3BAAF81 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AA06C3F614FBB883469F1 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA000900FB94372B076771E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFA4D6C58BB4686A8D03CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB370EF5695640DCB86C7B54;
+			remoteInfo = ZERO_CHECK;
+		};
+		E24925924BF642778FAD1338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFA4D6C58BB4686A8D03CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B80F9A1462C47859EFE22BA;
+			remoteInfo = 3dAlbum;
+		};
+		E5FC54031B2C4FF1AD240B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FFA4D6C58BB4686A8D03CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB370EF5695640DCB86C7B54;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41A80BFA1A3D9DAC0073FFEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data;
+			dstSubfolderSpec = 7;
+			files = (
+				413408AA1A512A8700AB74A5 /* road.png in CopyFiles */,
+				413408AB1A512A8700AB74A5 /* stars_78c8dff1.png in CopyFiles */,
+				413408AC1A512A8700AB74A5 /* unsplash_52d9133506548_1.png in CopyFiles */,
+				417C31761A419E73005B3C3A /* dubia.png in CopyFiles */,
+				417C31771A419E73005B3C3A /* nfs-shift-wallpaper.png in CopyFiles */,
+				417C316C1A419C26005B3C3A /* DSC_0997.png in CopyFiles */,
+				417C316D1A419C26005B3C3A /* DSC_1033.png in CopyFiles */,
+				417C316E1A419C26005B3C3A /* IMG_3275.png in CopyFiles */,
+				417C316F1A419C26005B3C3A /* fear_1920x1200.png in CopyFiles */,
+				417C31701A419C26005B3C3A /* little_big_planet_02.png in CopyFiles */,
+				417C31711A419C26005B3C3A /* owl.png in CopyFiles */,
+				417C31721A419C26005B3C3A /* winter.png in CopyFiles */,
+				417C31731A419C26005B3C3A /* zvx2009231.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01C0B3CB92954148B6419970 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D0AA06C3F614FBB883469F1 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		3CDB2B45170340598DA49EC0 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = config.h; sourceTree = SOURCE_ROOT; };
+		413408A71A512A8000AB74A5 /* road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road.png; sourceTree = "<group>"; };
+		413408A81A512A8000AB74A5 /* stars_78c8dff1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars_78c8dff1.png; sourceTree = "<group>"; };
+		413408A91A512A8000AB74A5 /* unsplash_52d9133506548_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unsplash_52d9133506548_1.png; sourceTree = "<group>"; };
+		417C31641A419C16005B3C3A /* DSC_0997.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSC_0997.png; sourceTree = "<group>"; };
+		417C31651A419C16005B3C3A /* DSC_1033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSC_1033.png; sourceTree = "<group>"; };
+		417C31661A419C16005B3C3A /* IMG_3275.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3275.png; sourceTree = "<group>"; };
+		417C31671A419C16005B3C3A /* fear_1920x1200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fear_1920x1200.png; sourceTree = "<group>"; };
+		417C31681A419C16005B3C3A /* little_big_planet_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = little_big_planet_02.png; sourceTree = "<group>"; };
+		417C31691A419C16005B3C3A /* owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = owl.png; sourceTree = "<group>"; };
+		417C316A1A419C16005B3C3A /* winter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winter.png; sourceTree = "<group>"; };
+		417C316B1A419C16005B3C3A /* zvx2009231.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zvx2009231.png; sourceTree = "<group>"; };
+		417C31741A419E6D005B3C3A /* dubia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dubia.png; sourceTree = "<group>"; };
+		417C31751A419E6D005B3C3A /* nfs-shift-wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nfs-shift-wallpaper.png"; sourceTree = "<group>"; };
+		41A80BF91A3D8BDF0073FFEB /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		83AF76FB03E04BC79D65DC24 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0C5F53E8EDF4A53A240FF50 /* 3dAlbum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 3dAlbum; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD64CA10C502421FBB0A653A /* MyObjects.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = MyObjects.h; sourceTree = SOURCE_ROOT; };
+		D399C4DEDE1A4A7BAE3DE552 /* app.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = app.hpp; sourceTree = SOURCE_ROOT; };
+		DE7FFDD7F6734BFB91579958 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED3C7F95F4504842939F01DA /* app.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = app.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0576C971C1F54AC8BAD989A2 /* 3dAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				41A80BFB1A3D9DCC0073FFEB /* data */,
+				7AD4BB2B1D284C7D80D59A33 /* Header Files */,
+				726124806932495D8B0465A2 /* Source Files */,
+				01C0B3CB92954148B6419970 /* CMakeLists.txt */,
+			);
+			name = 3dAlbum;
+			sourceTree = "<group>";
+		};
+		0C377CC4CEDD4A39807D6568 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		123F67C8D25E4DE4B1C6FB4D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				446BA31185604D7D8875A4C7 /* CMake Rules */,
+				DE7FFDD7F6734BFB91579958 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		26B5BCD7933048BA9D48EC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C5F53E8EDF4A53A240FF50 /* 3dAlbum */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E9C4FE561049159476479C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0576C971C1F54AC8BAD989A2 /* 3dAlbum */,
+				123F67C8D25E4DE4B1C6FB4D /* ALL_BUILD */,
+				638FB8F1242D4F9FA7E1EA56 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		41A80BFB1A3D9DCC0073FFEB /* data */ = {
+			isa = PBXGroup;
+			children = (
+				417C31641A419C16005B3C3A /* DSC_0997.png */,
+				417C31651A419C16005B3C3A /* DSC_1033.png */,
+				417C31741A419E6D005B3C3A /* dubia.png */,
+				413408A71A512A8000AB74A5 /* road.png */,
+				413408A81A512A8000AB74A5 /* stars_78c8dff1.png */,
+				413408A91A512A8000AB74A5 /* unsplash_52d9133506548_1.png */,
+				417C31751A419E6D005B3C3A /* nfs-shift-wallpaper.png */,
+				417C31661A419C16005B3C3A /* IMG_3275.png */,
+				417C31671A419C16005B3C3A /* fear_1920x1200.png */,
+				417C31681A419C16005B3C3A /* little_big_planet_02.png */,
+				417C31691A419C16005B3C3A /* owl.png */,
+				417C316A1A419C16005B3C3A /* winter.png */,
+				417C316B1A419C16005B3C3A /* zvx2009231.png */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		446BA31185604D7D8875A4C7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		638FB8F1242D4F9FA7E1EA56 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				DE8943EE3A9A41879CBB42A5 /* CMake Rules */,
+				83AF76FB03E04BC79D65DC24 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		67096D9EC4C743E69D926932 = {
+			isa = PBXGroup;
+			children = (
+				34E9C4FE561049159476479C /* Sources */,
+				0C377CC4CEDD4A39807D6568 /* Resources */,
+				26B5BCD7933048BA9D48EC26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		726124806932495D8B0465A2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C7F95F4504842939F01DA /* app.cpp */,
+				1D0AA06C3F614FBB883469F1 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7AD4BB2B1D284C7D80D59A33 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD64CA10C502421FBB0A653A /* MyObjects.h */,
+				D399C4DEDE1A4A7BAE3DE552 /* app.hpp */,
+				41A80BF91A3D8BDF0073FFEB /* stb_image.h */,
+				3CDB2B45170340598DA49EC0 /* config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DE8943EE3A9A41879CBB42A5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B80F9A1462C47859EFE22BA /* 3dAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3F065DDA0142A79562B9ED /* Build configuration list for PBXNativeTarget "3dAlbum" */;
+			buildPhases = (
+				55ED17E6AC304129B27EE683 /* Sources */,
+				41A80BFA1A3D9DAC0073FFEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F7B70329134ECF9E4D6F11 /* PBXTargetDependency */,
+			);
+			name = 3dAlbum;
+			productName = 3dAlbum;
+			productReference = B0C5F53E8EDF4A53A240FF50 /* 3dAlbum */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FFA4D6C58BB4686A8D03CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 151686D1B7844898A26D7D72 /* Build configuration list for PBXProject "3dAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67096D9EC4C743E69D926932;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				9B80F9A1462C47859EFE22BA /* 3dAlbum */,
+				74BE068C30DE46B0877328BA /* ALL_BUILD */,
+				EB370EF5695640DCB86C7B54 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231CF7AA1AAC4DCE96260BDA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/iOsama/Code/cpp/album/build -f /Users/iOsama/Code/cpp/album/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D2A9FD457DAA4350933E6F22 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/iOsama/Code/cpp/album/build -f /Users/iOsama/Code/cpp/album/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55ED17E6AC304129B27EE683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D78CA36F5A54167B1755CF9 /* app.cpp in Sources */,
+				62AC38F7E6ED4136A3BAAF81 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E01932C6AAD47DD9FA5B7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B80F9A1462C47859EFE22BA /* 3dAlbum */;
+			targetProxy = E24925924BF642778FAD1338 /* PBXContainerItemProxy */;
+		};
+		C6F7B70329134ECF9E4D6F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB370EF5695640DCB86C7B54 /* ZERO_CHECK */;
+			targetProxy = E5FC54031B2C4FF1AD240B29 /* PBXContainerItemProxy */;
+		};
+		DBE6556B01144204B722DA83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB370EF5695640DCB86C7B54 /* ZERO_CHECK */;
+			targetProxy = ADA000900FB94372B076771E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E8FFBA211D4560BAD158F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/iOsama/Code/cpp/album/build/build;
+			};
+			name = MinSizeRel;
+		};
+		08FC074710854703A6A08494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		2C0AEA31CF1049DFBB9FB859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		33092B2C0D1A40BD95B0063A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		3EA4255AFF0F4157BED3FFAB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4B815C4F21F944B6BBF2887D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4C044498198F4A5BB6553410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "    -DNDEBUG   ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-DNDEBUG",
+					"-g",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 3dAlbum;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		5F827165C7D948CF91A71B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		6BF86797660A45958BE30777 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		803AD70DE2924B59AD7A4EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/iOsama/Code/cpp/album/build/build;
+			};
+			name = Debug;
+		};
+		83D66D1EDD954621A60A0530 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/iOsama/Code/cpp/album/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		9C3066D75F9D4D80A24FC832 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "    -DNDEBUG   ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-DNDEBUG",
+					"-g",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 3dAlbum;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BD15753D6F3F4FD9BD5D5B91 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 3dAlbum;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		C657094097524F17AA05A9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		DF653A0E2323483F84A2E1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall     ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 3dAlbum;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/iOsama/Code/cpp/album/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		F68BE87188A54179866698E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = /Users/iOsama/Code/cpp/album/build/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151686D1B7844898A26D7D72 /* Build configuration list for PBXProject "3dAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803AD70DE2924B59AD7A4EF4 /* Debug */,
+				F68BE87188A54179866698E9 /* Release */,
+				01E8FFBA211D4560BAD158F9 /* MinSizeRel */,
+				83D66D1EDD954621A60A0530 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C5275BD6EA64B41A05CA6B5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FC074710854703A6A08494 /* Debug */,
+				C657094097524F17AA05A9E8 /* Release */,
+				33092B2C0D1A40BD95B0063A /* MinSizeRel */,
+				4B815C4F21F944B6BBF2887D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EBD2512624D4E05BF874066 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F827165C7D948CF91A71B4A /* Debug */,
+				2C0AEA31CF1049DFBB9FB859 /* Release */,
+				6BF86797660A45958BE30777 /* MinSizeRel */,
+				3EA4255AFF0F4157BED3FFAB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA3F065DDA0142A79562B9ED /* Build configuration list for PBXNativeTarget "3dAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF653A0E2323483F84A2E1C4 /* Debug */,
+				4C044498198F4A5BB6553410 /* Release */,
+				9C3066D75F9D4D80A24FC832 /* MinSizeRel */,
+				BD15753D6F3F4FD9BD5D5B91 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FFA4D6C58BB4686A8D03CBB /* Project object */;
+}
