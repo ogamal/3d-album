@@ -17,8 +17,15 @@ Screenshot
 ![Screenshot](https://raw.githubusercontent.com/ogamal/3d-album/master/Screen%20Shot%202014-12-29%20at%201.00.58%20AM.jpg)
 ![Screenshot](https://raw.githubusercontent.com/ogamal/3d-album/master/Screen%20Shot%202014-12-29%20at%201.07.17%20AM.jpg)
 
-Notes
+Build and run:
+==============
+- Run the following commands to build and run the application:
+```
+make clean; make
+./3dAlbum
+```
+
+Notes:
 ======
-- XCode project file could be found in the ./build directory.
-- You can use cmake to generate the project for QT. Make sure to change the data path "dirName variable" in "app.cpp".
+- You can use cmake to generate the project for QT or Xcode. Make sure to change the data path "dirName variable" in "app.cpp" or just have the "data" folder in the same folder as the executable.
 - Currently, the project loads all PNGs in the data folder, but it could be changed easily to open any image type. Check the App::loadImages() function.
