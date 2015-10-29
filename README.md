@@ -1,7 +1,7 @@
 3d-album
 =========
 
-- A minimalistic and clean 3D Album using OpenGL and C++.
+- A minimalistic and clean 3D Album using C++, OpenGL, and GLUT.
 - This project was intended to serve as a small project for computer graphics course (CprE 557) at ISU.
 
 Usage
